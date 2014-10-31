@@ -67,7 +67,7 @@ int main()
 {
     std::ios::sync_with_stdio(false);
 	vector< pair< pair<int, string>, pair<string, int> > > all, final;
-	ifstream fin("data");
+	ifstream fin("in.csv");
 	ofstream fout("out.csv");
 	int rank, com = 1, problemSolved;
 	string s, teamName, collegeName;
