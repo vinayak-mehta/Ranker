@@ -112,7 +112,7 @@ int main()
 	}
 	for(int i = 0; i<all.size(); i++){
 		string ta = all[i].S.F;
-		vector< pair< pair<int, string>, pair<string, int> > >::iterator bi = std::find_if(final.begin(), final.end(),[&ta](const pair< pair<int, string>, pair<string, int> >& p){ return p.S.F == ta; });
+		vector< pair< pair<int, string>, pair<string, int> > >::iterator bi = find_if(final.begin(), final.end(),[&ta](const pair< pair<int, string>, pair<string, int> >& p){ return p.S.F == ta; });
 		if(bi == final.end())
 			final.PB(MP(MP(all[i].F.F,all[i].F.S),MP(all[i].S.F,all[i].S.S)));		
 	}
