@@ -1,7 +1,7 @@
 Ranker
 ======
 
-Script used to generate list of teams selected for ACM-ICPC Kharagpur Site Onsite Round.
+Code used to generate list of teams selected for ACM-ICPC Kharagpur Site Onsite Round.
 
 How to Build: 
 <pre>
